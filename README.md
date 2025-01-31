@@ -8,5 +8,5 @@ Basic HTML syntax and common elements like navigation, lists, headings, and sect
 ## Syntax Basic
 HTML structure and a simple page layout example.
 
-## Family List
-Usage of unordered and ordered lists to display family names and the things they love.
+## List
+Usage of **ul** (unordered list) and **ol** (ordered list) to display family names and the things they love.
