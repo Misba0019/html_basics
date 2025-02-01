@@ -10,3 +10,6 @@ HTML structure and a simple page layout example.
 
 ## List
 Usage of **ul** (unordered list) and **ol** (ordered list) to display family names and the things they love.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
