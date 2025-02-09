@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms (Demo) </h1>
+
+    <!-- This form will submit data to the /tacos endpoint -->
+    <form action="/tacos">
+        <p>
+            <label for="name">Enter a username:</label>
+            <!-- Text input for the username -->
+            <input id="name" type="text" placeholder="Name" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <!-- Password input to hide entered text -->
+            <input id="password" type="password" placeholder="Password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose a color:</label>
+            <!-- Input for selecting a color -->
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="phone-number">Phone Number:</label>
+            <!-- Number input for phone number -->
+            <input id="phone-number" type="number" placeholder="Phone number" name="num">
+        </p>
+
+        <!-- Button that doesn't submit the form because of the "type" attribute -->
+        <button type="button">Regular button (won't submit)</button>
+        <!-- Button that submits the form -->
+        <button>Submit!</button>
+        <!-- Another way to submit the form using an input -->
+        <input type="submit" value="Click Me">
+    </form>
+
+    <hr>
+
+    <!-- Button outside of any form, no default form behavior -->
+    <button>Not INSIDE Form</button>
+    <h2>Hijacking Searches</h2>
+    <h3>Google Search</h3>
+    <!-- Form for searching Google -->
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <h3>YouTube Search</h3>
+    <!-- Form for searching YouTube -->
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search YouTube</button>
+    </form>
+
+    <hr>
+
+    <!-- Section for demonstrating different input types -->
+    <h2>Input Types</h2>
+
+    <h3>Checkbox Type Input</h3>
+    <!-- Form with a checkbox input -->
+    <form action="/checkboxes">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to the terms of service</label>
+        <button>Submit</button>
+    </form>
+
+    <h3>Radio Button Input</h3>
+    <!-- Form with radio buttons for selecting a size -->
+    <form action="/radiobuttons">
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="small">
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="medium">
+        <label for="l">L</label>
+        <input type="radio" name="size" id="l" value="large">
+        <button>Submit</button>
+    </form>
+
+    <h2>Drop Box: Select, Option Input</h2>
+    <!-- Form with a dropdown menu for selecting a pet -->
+    <form action="/dropbox">
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+            <option value="hamster">Hamster</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="turtle" selected>Turtle</option>
+            <!-- 'selected' attribute pre-selects this option -->
+        </select>
+    </form>
+
+    <h2>Slider: Range Input</h2>
+    <!-- Form with a range slider for volume control -->
+    <form action="/range_slider">
+        <label for="volume">Volume :</label>
+        <input type="range" name="volume_range" id="volume" min="0" max="10" step="2">
+    </form>
+
+    <h2>Textarea ELEMENT</h2>
+    <!-- Textarea for multi-line input -->
+    <label for="story">Tell us your story - </label>
+    <textarea id="story" name="storytime" rows="4" cols="50"
+        placeholder="Write your story here">Once upon a time...</textarea>
+
+    <h2>Validations Demo</h2>
+    <h3>Required Attribute</h3>
+    <!-- Input that requires the user to enter a value -->
+    <label for="required">Enter First Name</label>
+    <input type="text" id="required" name="username" required>
+
+    <h3>Minlength Maxlength attributes</h3>
+    <!-- Input with minlength and maxlength attributes -->
+    <label for="username">Enter a Username</label>
+    <input type="text" id="username" name="username" minlength="5" maxlength="15">
+
+    <h3>Min and Max attributes</h3>
+    <!-- Number input with min and max attributes -->
+    <label for="num">Enter a number</label>
+    <input type="number" id="num" name="num" min="3" max="10" value="5">
+
+    <button type="submit">Submit</button>
+</body>
+
+</html>
