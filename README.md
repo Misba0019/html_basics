@@ -1,5 +1,5 @@
 # Html basics
-## Introduction
+## Overview
 Welcome to the HTML Basics repository! This project provides a guide to foundational HTML concepts, including syntax, common elements, forms, and input types. Perfect for beginners and those refreshing their skills, it offers practical examples to help you master HTML.
 
 ## Heaviest Birds
