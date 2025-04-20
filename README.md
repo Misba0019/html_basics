@@ -24,4 +24,4 @@ Usage of **ul** (unordered list) and **ol** (ordered list) to display family nam
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Misba0019/html_basics?tab=MIT-1-ov-file) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
