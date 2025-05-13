@@ -1,7 +1,11 @@
 # Html basics
+
 ## Overview
 
-Welcome to the HTML Basics repository! This project provides a guide to foundational HTML concepts, including syntax, common elements, forms, and input types. Perfect for beginners and those refreshing their skills, it offers practical examples to help you master HTML.
+**Welcome to the HTML Basics repository!** This project provides a guide to foundational HTML concepts, including syntax, common elements, forms, and input types.  
+Perfect for beginners and those refreshing their skills, it offers practical examples to help you master HTML.
+
+---
 
 ## Topics
 
@@ -21,6 +25,22 @@ This section demonstrates various HTML form elements and input types, including 
 
 ### List
 Usage of **ul** (unordered list) and **ol** (ordered list) to display family names and the things they love.
+
+---
+
+## How to Use
+
+Clone the repository:
+```bash
+git clone https://github.com/Misba0019/html_basics.git
+```
+---
+
+## Support
+
+⭐ If you find this project helpful, please consider visiting the repo and giving it a ⭐ star — it really helps!
+
+---
 
 ## License
 
