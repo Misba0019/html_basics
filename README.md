@@ -2,38 +2,45 @@
 
 ## Overview
 
-**Welcome to the HTML Basics repository!** This project provides a guide to foundational HTML concepts, including syntax, common elements, forms, and input types.  
-Perfect for beginners and those refreshing their skills, it offers practical examples to help you master HTML.
+**Welcome to the HTML Basics repository!**  
+This project provides a guide to foundational HTML concepts, including syntax, common elements, forms, and input types.
+- Perfect for beginners and those refreshing their skills, it offers practical examples to help you master HTML.
 
 ---
 
 ## Topics
 
-### Heaviest Birds Table
+1. Heaviest Birds Table:  
 Advanced table techniques with complex structures and cell merging. 
 
-### Project HTML
+2. Project HTML:  
 Basic HTML syntax and common elements like navigation, lists, headings, and sections.
 
-### Syntax Basic
+3. Syntax Basic:  
 HTML structure and a simple page layout example.
 
-### Forms and Input
+4. Forms and Input:  
 This section demonstrates various HTML form elements and input types, including text fields, password fields, color pickers, phone number fields, checkboxes, radio buttons, dropdowns, sliders, textareas, and input validation techniques.
 
 - In this section, we demonstrate how to create search forms that interact with popular search engines. The examples include a Google search form and a YouTube search form.
 
-### List
+5. List:  
 Usage of **ul** (unordered list) and **ol** (ordered list) to display family names and the things they love.
 
 ---
 
 ## How to Use
 
-Clone the repository:
+- Clone the repository:
 ```bash
 git clone https://github.com/Misba0019/html_basics.git
 ```
+- Navigate to the project folder:
+Open the terminal and navigate to the folder where the repository was cloned:
+
+- Open the files in a browser:
+Open any of the .html files in your browser to view the examples.
+
 ---
 
 ## Support
